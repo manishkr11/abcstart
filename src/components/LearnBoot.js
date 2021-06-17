@@ -19,16 +19,15 @@ function LearnBoot() {
 
     return (
         <div>
-                <div className="jumbotron text-center">
+                {/* <div className="jumbotron text-center">
                     <h1>My First Bootstrap Page</h1>
                     <p>Resize this responsive page to see the effect!</p>
-                </div>
-                {time.toLocaleString()}
-                {i}
+                </div> */}
+                <strong>{time.toLocaleTimeString()}</strong>
 
-                <div className="progress">
-                    {/* <div className="progress-bar" style={{width:`${i}%`}}>{i}%</div> */}
-                </div>
+                {/* <div className="progress">
+                    <div className="progress-bar" style={{width:`${i}%`}}>{i}%</div>
+                </div> */}
 
                 <div className="alert alert-success">
                     <strong>Success!</strong> Indicates a successful or positive action.
